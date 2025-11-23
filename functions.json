@@ -1,0 +1,14 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "name": "event",
+      "direction": "in",
+      "eventHubName": "iothub-ehub-your-iothub-123456",
+      "connection": "IoTHubConnectionString",
+      "cardinality": "one",
+      "consumerGroup": "$Default"
+    }
+  ]
+}
